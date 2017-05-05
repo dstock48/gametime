@@ -72,6 +72,7 @@
       "error", {
         "int32Hint": false
       }
-    ]
+    ],
+    "no-console": 1
   }
 }
