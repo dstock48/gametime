@@ -29,7 +29,7 @@ p {
 }
 
 p:hover {
-  background-color: #000;
+  background-color: rgba(0, 0, 0, .4);
   color: #fff;
   cursor: pointer;
 }
