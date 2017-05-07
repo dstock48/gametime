@@ -33,3 +33,7 @@ p:hover {
   color: #fff;
   cursor: pointer;
 }
+p.active {
+  background-color: #000;
+  color: #fff;
+}
