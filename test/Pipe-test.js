@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const Pipe = require('../lib/Pipe.js').Pipe;
+const Pipe = require('../lib/Pipe.js');
 
 describe('Pipes', () => {
   const pipe = new Pipe({width: 900}, 300, 100);
@@ -26,5 +26,11 @@ describe('Pipes', () => {
 
   it('should have a padding value of 100', () => {
     expect(pipe.padding).to.equal(100)
+  })
+
+  it('should move to the left at the specified amount', () => {
+    expect(pipe.x).to.equal(900);
+    pipe.move(100);
+    expect(pipe.x).to.equal(800);
   })
 })
