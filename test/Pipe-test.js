@@ -1,10 +1,10 @@
-import { expect } from 'chai';
-import Pipe from '../lib/Pipe.js';
+const expect = require('chai').expect;
+const Pipe = require('../lib/Pipe.js').Pipe;
 
-describe('Pipe', () => {
+describe('Pipes', () => {
   const pipe = new Pipe({width: 900}, 300, 100);
 
-  it('should be an instance of Pipe', () => {
+  it('should be an instance of Pipes', () => {
     expect(pipe).to.be.an.instanceof(Pipe)
   })
 
