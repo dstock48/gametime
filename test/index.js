@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import Player from '../lib/Player.js'
-import Pipe from '../lib/Pipes.js'
+import Pipe from '../lib/Pipe.js'
 import gameScore from '../lib/game.js'
 // const gameScore = require('../lib/game.js').gameScore;
 // import canvas from '../lib/game.js'
