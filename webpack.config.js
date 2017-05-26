@@ -1,9 +1,9 @@
+/* eslint-disable */
 const path = require('path');
 
 module.exports = {
   entry: {
-    main: "./lib/index.js",
-    test: "mocha!./test/index.js"
+    main: "./lib/index.js"
   },
   output: {
     path: __dirname,
@@ -11,8 +11,15 @@ module.exports = {
   },
   module: {
     loaders: [
-      { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
-      { test: /\.css$/, loader: "style!css" }
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader'
+      },
+      {
+        test: /\.css$/,
+        loader: "style!css"
+      }
     ]
   },
   resolve: {

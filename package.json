@@ -1,7 +1,7 @@
 {
-  "name": "game-time-starter-kit-fem1",
+  "name": "turing-fly",
   "version": "1.0.0",
-  "description": "Starter kit for Turing School's front-end module 1 Game Time project",
+  "description": "Turing Fly (Flappy Bird Clone)",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open",
@@ -10,14 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/turingschool-examples/game-time-starter-kit-FEm1.git"
+    "url": "git+https://github.com/dstock48/gametime.git"
   },
-  "author": "Turing School of Software and Design - Robbie Jaeger",
+  "author": "Dave Weinstock & Nik Bornemeier",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/turingschool-examples/game-time-starter-kit-FEm1/issues"
-  },
-  "homepage": "https://github.com/turingschool-examples/game-time-starter-kit-FEm1#readme",
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-core": "^6.18.2",
